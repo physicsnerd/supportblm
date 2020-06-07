@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="topnav">
+        <a class="active" href="/index.html">Home</a>
+        <a href="/news.html">News</a>
+        <a href="/protesting.html">Protesting</a>
+        <a href="/about.html">About</a>
+    </div>
+    <h2> Petitions </h2>
+    <div class="scrolling-wrapper">
+        <div class="card"><button onclick="displayModal(petition1modal,close1)" id="petition3" class="petitionbutton"><div class="container"><img class="imagetext"src="covid19.png" /><div class="centered">NAACP Equitable Coronavirus Relief</div></div></button></div>
+        <div id="petition1modal" class="modal">
+            <div class="modal-content">
+            <span id="close1" class="close">&times;</span>
+            <iframe class="website"target="_blank" src="https://naacp.org/coronavirus/equitable-relief-bill-petition/" title="NAACP Equitable Coronavirus Relief"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition2modal,close2)" id="petition2" class="petitionbutton"><div class="container"><img class="imagetext"src="ahmuadarbery.jpg" /><div class="centered">Justice For Ahmuad Arbery</div></div></button></div>
+        <div id="petition2modal" class="modal">
+            <div class="modal-content">
+            <span id="close2" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://www.change.org/p/human-rights-campaign-justice-for-ahmuad-arbery" title="Justice for Ahmuad Arbery"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition3modal,close3)" id="petition3" class="petitionbutton"><div class="container"><img class="imagetext"src="georgefloyd.jpg" /><div class="centered">NAACP We Are Done Dying</div></div></button></div>
+        <div id="petition3modal" class="modal">
+            <div class="modal-content">
+            <span id="close3" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://www.naacp.org/campaigns/we-are-done-dying/" title="NAACP We Are Done Dying"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition4modal,close4)" id="petition4" class="petitionbutton"><div class="container"><img class="imagetext"src="breonnataylor.jpg" /><div class="centered">Stand With Bre </div></div></button></div>
+        <div id="petition4modal" class="modal">
+            <div class="modal-content">
+            <span id="close4" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://www.standwithbre.com/" title="Stand With Bre"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition5modal,close5)" id="petition5" class="petitionbutton"><div class="container"><img class="imagetext"src="tonymcdade.jpg" /><div class="centered">Demand Justice For Tony McDade </div></div></button></div>
+        <div id="petition5modal" class="modal">
+            <div class="modal-content">
+            <span id="close5" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://actionnetwork.org/letters/demand-justice-for-tony-mcdade?source=direct_link&" title="Demand Justice For Tony McDade"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition6modal,close6)" id="petition6" class="petitionbutton"><div class="container"><img class="imagetext"src="jamesscurlock.jpg" /><div class="centered">Justice For James Scurlock </div></div></button></div>
+        <div id="petition6modal" class="modal">
+            <div class="modal-content">
+            <span id="close6" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://www.change.org/p/demand-justice-for-james-scurlock-killed-by-omaha-racist-during-george-floyd-protest?recruiter=419451874&utm_source=share_petition&utm_medium=twitter&utm_campaign=psf_combo_share_abi&recruited_by_id=e1f2e017-4522-4176-92da-6ccc6953684c" title="Justice For James Scurlock"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition7modal,close7)" id="petition7" class="petitionbutton"><div class="container"><img class="imagetext"src="seanreed.jpg" /><div class="centered">Justice For Sean Reed </div></div></button></div>
+        <div id="petition7modal" class="modal">
+            <div class="modal-content">
+            <span id="close7" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://www.change.org/p/mayor-joe-hogsett-justice-for-sean-reed" title="Justice For Sean Reed"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition8modal,close8)" id="petition8" class="petitionbutton"><div class="container"><img class="imagetext"src="georgefloyd2.png" /><div class="centered">#JusticeForFloyd </div></div></button></div>
+        <div id="petition8modal" class="modal">
+            <div class="modal-content">
+            <span id="close8" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://act.colorofchange.org/sign/justiceforfloyd_george_floyd_minneapolis?source=coc_main_website" title="#JusticeForFloyd"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition9modal,close9)" id="petition9" class="petitionbutton"><div class="container"><img class="imagetext"src="breonnataylor2.jpg" /><div class="centered">#JusticeForBre </div></div></button></div>
+        <div id="petition9modal" class="modal">
+            <div class="modal-content">
+            <span id="close9" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://act.colorofchange.org/sign/justiceforbre-breonna-taylor-officers-fired/" title="#JusticeForBre"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(petition10modal,close10)" id="petition10" class="petitionbutton"><div class="container"><img class="imagetext"src="jackiejohnson.png" /><div class="centered">Jackie Johnson Must Resign </div></div></button></div>
+        <div id="petition10modal" class="modal">
+            <div class="modal-content">
+            <span id="close10" class="close">&times;</span>
+            <iframe class="website" target="_blank" src="https://www.change.org/p/jackie-johnson-demand-d-a-jackie-johnson-resign-for-failing-to-arrest-the-murderers-of-ahmaud-arbery?signed=true" title="Jackie Johnson Must Resign"></iframe>
+            </div>
+        </div>
+    </div>
+    <h2> Emails and phone calls </h2>
+
+    <p>One great way to help is by calling or emailing local representatives - both to support specific changes, like reopening cases or releasing individuals or blocking certain laws, but also broader initiatives, like defunding the police force or pointing to broader programs for change. Here are some places to check:</p>
+
+    <ul>
+        <li> Your state's senators in congress: <a href = "https://www.senate.gov/general/contact_information/senators_cfm.cfm" target = "_blank" >click here </a> </li>
+        <li>Your state's representives in state legislature: <a href = "https://www.house.gov/representatives" target = "_blank" >click here </a> </li>
+        <li>Your state's governor or attourney general: <a href = "https://www.usa.gov/state-attorney-general" target = "_blank" >click here </a> </li>
+    </ul>
+
+
+    <p>Example email templates and call scripts can be found <a href = "https://framinghamsource.com/index.php/2020/06/03/letter-contact-your-elected-leaders-tell-them-black-lives-matter/" target = "_blank">here </a> </p>
+    <p> Looking for more resources? Check them out <a href = "https://docs.google.com/document/d/1Xa9Av-NfuFsWBHlsMvPiqJHdNedZgnCRW56qAS-7PGQ/edit" target = "_blank" >here</a>, compiled by Carlisa Johnson. <p>
+
+    <h2> Donating </h2>
+
+    <div class="scrolling-wrapper">
+        <div class="card"><button onclick="displayModal(donation1modal,donationclose1)" id="donation1" class="petitionbutton"><div class="container"><img class="imagetext"src="bail.jpeg" /><div class="centered">Albany, NY Bail Pool</div></div></button></div>
+        <div id="donation1modal" class="modal">
+            <div class="modal-content">
+            <span id="donationclose1" class="close">&times;</span>
+            <iframe class="website"target="_blank" src="https://www.paypal.com/pools/c/8pAK2AzvDg" title="Albany, NY Bail Pool"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(donation2modal,donationclose2)" id="donation2" class="petitionbutton"><div class="container"><img class="imagetext"src="bail.jpeg" /><div class="centered">Distributed Bail Pool</div></div></button></div>
+        <div id="donation2modal" class="modal">
+            <div class="modal-content">
+            <span id="donationclose2" class="close">&times;</span>
+            <iframe class="website"target="_blank" src="https://secure.actblue.com/donate/bail_funds_george_floyd" title="Donate to Distributed Bail Pool"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(donation3modal,donationclose3)" id="donation3" class="petitionbutton"><div class="container"><img class="imagetext"src="lgbtq.jpg" /><div class="centered">Help Jailed LGBTQ Individuals</div></div></button></div>
+        <div id="donation3modal" class="modal">
+            <div class="modal-content">
+            <span id="donationclose3" class="close">&times;</span>
+            <iframe class="website"target="_blank" src="https://www.lgbtqfund.org/donate-1/" title="Donate to Help Jailed LGBTQ Individuals"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(donation4modal,donationclose4)" id="donation4" class="petitionbutton"><div class="container"><img class="imagetext"src="northstar.png" /><div class="centered">Northstar Health Collective Protesters</div></div></button></div>
+        <div id="donation4modal" class="modal">
+            <div class="modal-content">
+            <span id="donationclose4" class="close">&times;</span>
+            <iframe class="website"target="_blank" src="https://northstarhealth.wordpress.com/donate/" title="Northstar Health Collective Protesters"></iframe>
+            </div>
+        </div>
+        <div class="card"><button onclick="displayModal(donation5modal,donationclose5)" id="donation5" class="petitionbutton"><div class="container"><img class="imagetext"src="breonnataylor.jpg" /><div class="centered">Family of Breonna Taylor</div></div></button></div>
+        <div id="donation5modal" class="modal">
+            <div class="modal-content">
+            <span id="donationclose5" class="close">&times;</span>
+            <iframe class="website"target="_blank" src="https://www.gofundme.com/f/9v4q2-justice-for-breonna-taylor" title="Family of Breonna Taylor"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <h2> Support Black-Owned Businesses </h2>
+
+    <p> Donating is a great way to help, but so is supporting local Black-owned businesses. Some comprehensive lists of these can be found here: </p>
+    <ul>
+        <li><a target="_blank" href="https://www.eatokra.com/">Eat</a> at Black-owned restaurants</li>
+        <li>Businesses <a target="_blank" href="https://abc7.com/black-owned-businesses-restaurants-list-of-black-owned/6229324/">in Los Angeles </a> </li>
+        <li>A <a href="https://officialblackwallstreet.com/directory/" target="_blank">massive directory</a> of Black-owned businesses</li>
+    </ul>
+  
+    <h2> Books </h2>
+    <div class="scrolling-wrapper">
+        <div class="card"><a href="https://www.goodreads.com/book/show/33916061-we-were-eight-years-in-power#:~:text=We%20Were%20Eight%20Years%20in%20Power%3A%20An%20American%20Tragedy,-by&text=%22We%20were%20eight%20years%20in,supremacist%20rule%20in%20the%20South." target= "_blank"><img class="bookimage"src="wewereeightyears.jpg"/></a></div>
+        <div class="card"><a href="https://www.goodreads.com/book/show/40265832-how-to-be-an-antiracist" target= "_blank"><img class="bookimage" src="howtobeanantiracist.jpg"/></a></div>
+        <div class="card"><a href="https://www.goodreads.com/book/show/34964998-when-they-call-you-a-terrorist#:~:text=When%20They%20Call%20You%20a%20Terrorist%3A%20A%20Black%20Lives%20Matter%20Memoir,-by&text=A%20poetic%20and%20powerful%20memoir,the%20land%20of%20the%20free." target= "_blank"><img class="bookimage" src="whentheycallyouaterrorist.jpg"/></a></div>
+        <div class="card"><a href="https://www.goodreads.com/book/show/6792458-the-new-jim-crow" target= "_blank"><img class="bookimage" src="TheNewJimCrow.jpg"/></a></div>
+        <div class="card"><a href="https://www.goodreads.com/book/show/41081373-girl-woman-other" target= "_blank"><img class="bookimage" src="girlwomanother.jpg"/></a></div>
+        <div class="card"><a href="https://www.goodreads.com/book/show/32075671-the-hate-u-give" target= "_blank"><img class="bookimage" src="thehateugive.jpg"/></a></div>
+        <div class="card"><a href="https://www.goodreads.com/book/show/25489625-between-the-world-and-me" target= "_blank"><img class="bookimage" src="betweentheworldandme.jpg"/></a></div>
+        <div class="card"><a href="https://www.goodreads.com/book/show/25330220-from-blacklivesmatter-to-black-liberation" target= "_blank"><img class="bookimage" src="blmtoblacklib.jpg"/></a></div>
+
+        <div class="card"><a href="https://www.goodreads.com/book/show/36584218-white-privilege" target= "_blank"><img class="bookimage"src="whiteprivilegecover.jpg"/></a></div>
+
+        <div class="card"><a href="https://www.goodreads.com/book/show/33606119-why-i-m-no-longer-talking-to-white-people-about-race" target= "_blank"><img class="bookimage"src="whyimnolonger.jpg"/></a></div>
+
+       <div class="card"><a href="https://www.goodreads.com/book/show/40390773-i-m-telling-the-truth-but-i-m-lying?ac=1&from_search=true&qid=B57S95jaM3&rank=1" target= "_blank"><img class="bookimage"src="imtellingthetruth.jpg"/></a></div> 
+
+      <div class="card"><a href="https://www.goodreads.com/book/show/40232729-don-t-touch-my-hair?ac=1&from_search=true&qid=ZV4g2GhSN4&rank=1" target= "_blank"><img class="bookimage"src="donttouchmyhair.jpg"/></a></div> 
+
+      <div class="card"><a href="https://www.goodreads.com/book/show/25330108-freedom-is-a-constant-struggle" target= "_blank"><img class="bookimage"src="freedomstruggles.jpg"/></a></div> 
+
+      <div class="card"><a href="https://www.goodreads.com/book/show/43708708-white-fragility" target= "_blank"><img class="bookimage"src="whitefragility.jpg"/></a></div> 
+
+      <div class="card"><a href="https://www.goodreads.com/da/book/show/35099718-so-you-want-to-talk-about-race" target= "_blank"><img class="bookimage"src="soyouwanttotalkaboutrace.jpg"/></a></div>
+    </div>
+    
+    <footer>
+        <center>
+        <img class="footeritem" src="blm.png" width="40px" height="50px"/>
+        <a target="_blank" href="https://www.instagram.com/blklivesmatter/?hl=en"><img class="footeritem" src="insta.png" width="25px" height="25px" /> </a>
+        <a target="_blank" href="https://www.facebook.com/BlackLivesMatter/"><img src="fb.png" class="footeritem" width="25px" height="25px" /> </a>
+        <a target="_blank" href="https://twitter.com/Blklivesmatter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="twitter.png" class="footeritem" width="25px" height="25px" /> </a>
+        </center>
+    </footer>
+  </body>
+</html>
